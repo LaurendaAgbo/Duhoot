@@ -1,0 +1,23 @@
+/* Webfont: Gotham Book */@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham/gotham-book.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Gotham Medium */@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/Gotham/gotham-medium.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Gotham Bold */@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/Gotham/gotham-bold.otf') format('otf');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
