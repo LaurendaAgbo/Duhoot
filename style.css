@@ -1,9 +1,125 @@
 /*****     MAIN     STYLE       *****/
 
+body {
+	font-family: "Gotham Medium";
+	background-color: #f3f1f2;
+}
+
+/* .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+ */
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
 /*****     FIN    MAIN     STYLE       *****/
 
 /***** DEBUT NAVIGATION   ****/
 
+#navigation {
+	background-color: #fff;
+	font-family: "Gotham Light";
+}
+
+@media (min-width: 992px) {
+	#navigation .navbar {
+		margin-left: 7rem;
+	}
+	
+	#navigationSearchForm {
+		position: absolute;
+		top: 0;
+		right: 0px;
+		width: 0%;
+		min-width: 70px;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#navigationSearchForm .input-group input {
+		display: none;
+	}
+	
+	#navigationSearchForm .input-group span.input-group-addon {
+		right: -20px;
+		position: relative;
+	}
+}
+
+@media (max-width: 991px) {
+	#navigation #menu {
+		width: 95%;
+		background: #4b5b6a;
+	}
+}
+
+@media (min-width: 1200px) {
+	#navigation #menu {
+		margin-left: 10rem;
+	}
+}
+
+#menu li a {
+    font-size: 14px;
+	color: #96a6a7;
+	font-weight: 600;
+}
+	
+@media (max-width: 991px) {
+	#menu li {
+        padding: 0px 10px;
+	}
+	
+	#menu li a {
+        padding: 6px 6px;
+	}
+}
+	
+@media (min-width: 768px) and (max-width: 992px) {
+	#login {
+		max-height: 74px;
+	}
+}
+
+#menu li a:hover, #menu li a.active {
+    background: #fff;
+    color: #e94e38;
+}
+
+#navigationSearchForm .input-group {
+		height: 75px;
+}
+
+#navigationSearchForm .input-group span.input-group-addon {
+	border: 1px solid #eceeef;
+	border-radius: 0px;
+}
+	
+#navigationSearchForm button {
+	border: 0px;
+    background-color: transparent;
+	cursor: pointer;
+}
+
+#login {
+	background-color: #e94e38;
+}
+
+#login p {
+	margin: 1.5em 2em;
+    color: #fff;
+}
 
 /****	FIN  NAVIGATION   ****/
 
