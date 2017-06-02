@@ -21,3 +21,11 @@
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
+
+/* Webfont: Gotham Light */@font-face {
+    font-family: 'Gotham Light';
+    src: url('../fonts/Gotham/GothamLightRegular.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
