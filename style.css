@@ -125,7 +125,63 @@ ul {
 
 /***** DEBUT SEARCH   ****/
 
+#search {
+	background: url(images/search_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+	font-family: "Gotham Medium";
+}
 
+#searchName h3 {
+	font-size: 30px;
+	line-height: 3;
+	padding-top: 30px;
+}
+
+@media (min-width: 468px) and (max-width: 768px) {
+	#searchName h3 {
+		font-size: 26px;
+		line-height: 2;
+		padding-top: 15px;
+	}
+}
+
+@media (max-width: 467px) {
+	#searchName h3 {
+		font-size: 20px;
+		line-height: 1.2;
+		padding-top: 5px;
+	}
+}
+
+@media (min-width: 578px) {
+	#searchForm #selector div[class^="col-md-6"]:first-child .form-group {
+		width: 45%;
+		float: right;
+	}
+
+	#searchForm #selector div[class^="col-md-6"]:nth-child(2) .form-group {
+		width: 45%;
+		float: left;
+	}
+}
+
+#researchKeywords .form-group {
+	width: 50%;
+    margin: 0 auto;
+}
+
+#searchForm input, #searchForm select {
+	height: 60px;
+	border-radius: 25px;
+    border: 1px solid #5b5953;
+    background: rgba(111, 111, 111, 0.17);
+    color: #fff;
+}
 
 /****	FIN  SEARCH   ****/
 
