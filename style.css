@@ -133,7 +133,6 @@ ul {
 	width: 100%;
 	color: #fff;
 	height: 100%;
-	font-family: "Gotham Medium";
 }
 
 #searchName h3 {
@@ -170,18 +169,45 @@ ul {
 	}
 }
 
-#researchKeywords .form-group {
-	width: 50%;
-    margin: 0 auto;
-}
-
-#searchForm input, #searchForm select {
+#searchForm  .form-control {
 	height: 60px;
-	border-radius: 25px;
+	border-radius: 30px;
     border: 1px solid #5b5953;
     background: rgba(111, 111, 111, 0.17);
     color: #fff;
+	font-family: 'Gotham Light', sans serif;
 }
+
+#researchKeywords .form-group {
+	width: 46%;
+    margin: 0 auto;
+}
+
+@media (max-width: 578px) {
+	#researchKeywords .form-group {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+#searchButton button {
+	height: 60px;
+	border-radius: 30px;
+	background-color: #e94e38;
+	margin: 2.5rem auto;
+    /* width: 13%; */
+    color: #fff;
+    box-shadow: 0px 2px 0px #c1412e;
+    font-family: 'Gotham Medium';
+    font-size: 1.2rem;
+}
+
+@media (max-width: 578px) {
+	#searchButton button {
+		width: 130px;
+	}
+}
+
 
 /****	FIN  SEARCH   ****/
 
