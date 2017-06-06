@@ -213,7 +213,97 @@ ul {
 
 /***** DEBUT FILTER   ****/
 
+#filter {
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #edebec;
+	text-transform: uppercase;
+	font-size: 12px;
+}
 
+#filterMenu .navbar-light #divFilterMenu .navbar-nav .active > .nav-link, 
+#filterMenu #divFilterMenu a:hover, #filterMenu #divFilterMenu a:focus {
+	color: #e94e38;
+}
+
+#filterMenu .navbar-toggler-left {
+    position: relative;
+}
+
+#filterSelector, #filterGrid {
+	padding-top: 0.5rem;
+}
+
+#filterSelector select, #filterSelector button {
+	border-radius: 1.25rem;
+    height: 38px;
+	font-family: 'Gotham', sans serif;
+	font-size: 12px;
+}
+
+#filterSelector select {
+    padding: 0.25rem 0.75rem;
+    width: 80%;
+    float: right;
+	text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+	#filterSelector select {
+		width: 130px;
+	}
+}
+
+#filterSelector button {
+	color: #96a6a7;
+    float: left;
+    font-size: 12px;
+}
+
+@media (max-width: 578px) {
+	#filterSelector select, #filterSelector button {
+		float: none;
+		margin-bottom: 1rem;
+	}
+}
+
+#filterGrid li {
+	padding: 0em 0.25em;
+}
+
+.icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
+	background-color: #1baf5d;
+    border-radius: 2.5rem;
+    padding: 0.75em 0.5em;
+    height: 42px;
+}
+
+.icoGirl, .icoSchool, .icoBus {
+	background-color: #b6c0c1;
+}
+
+.icoParty {
+	background-color: #f19e1f;
+}
+
+.icoBus {
+	background-color: #88499c;
+}
+
+.icoHome img, .icoGirl img, .icoSchool img, .icoParty img , .icoBus img {
+	max-width: 30px;
+    width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
+		padding: 0em 0.5em;
+		height: 22px;
+	}
+	
+	#filterGrid li {
+		padding: 0.75em 0.25em;
+	}
+}
 
 /****	FIN  FILTER   ****/
 
