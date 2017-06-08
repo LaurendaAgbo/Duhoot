@@ -32,7 +32,7 @@ ul {
 	font-family: "Gotham Light";
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	#navigation .navbar {
 		margin-left: 7rem;
 	}
@@ -57,14 +57,14 @@ ul {
 	}
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 	#navigation #menu {
 		width: 95%;
 		background: #4b5b6a;
 	}
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	#navigation #menu {
 		margin-left: 10rem;
 	}
@@ -76,7 +76,7 @@ ul {
 	font-weight: 600;
 }
 	
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 	#menu li {
         padding: 0px 10px;
 	}
@@ -86,7 +86,7 @@ ul {
 	}
 }
 	
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	#login {
 		max-height: 74px;
 	}
@@ -141,7 +141,7 @@ ul {
 	padding-top: 30px;
 }
 
-@media (min-width: 468px) and (max-width: 768px) {
+@media screen and (min-width: 468px) and (max-width: 767px) {
 	#searchName h3 {
 		font-size: 26px;
 		line-height: 2;
@@ -149,7 +149,7 @@ ul {
 	}
 }
 
-@media (max-width: 467px) {
+@media screen and (max-width: 467px) {
 	#searchName h3 {
 		font-size: 20px;
 		line-height: 1.2;
@@ -157,7 +157,7 @@ ul {
 	}
 }
 
-@media (min-width: 578px) {
+@media screen and (min-width: 578px) {
 	#searchForm #selector div[class^="col-md-6"]:first-child .form-group {
 		width: 45%;
 		float: right;
@@ -183,7 +183,7 @@ ul {
     margin: 0 auto;
 }
 
-@media (max-width: 578px) {
+@media screen and (max-width: 577px) {
 	#researchKeywords .form-group {
 		width: 100%;
 		margin: 0;
@@ -202,7 +202,7 @@ ul {
     font-size: 1.2rem;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	#searchButton button {
 		width: 130px;
 	}
@@ -247,7 +247,7 @@ ul {
 	text-transform: uppercase;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	#filterSelector select {
 		width: 130px;
 	}
@@ -259,7 +259,7 @@ ul {
     font-size: 12px;
 }
 
-@media (max-width: 578px) {
+@media screen and (max-width: 577px) {
 	#filterSelector select, #filterSelector button {
 		float: none;
 		margin-bottom: 1rem;
@@ -268,6 +268,10 @@ ul {
 
 #filterGrid li {
 	padding: 0em 0.25em;
+}
+
+#filterGrid a:hover { 
+	cursor:pointer;
 }
 
 .icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
@@ -281,11 +285,11 @@ ul {
 	background-color: #b6c0c1;
 }
 
-.icoParty {
+.icoParty, .postIcoParty {
 	background-color: #f19e1f;
 }
 
-.icoBus {
+.icoBus, .postIcoBus {
 	background-color: #88499c;
 }
 
@@ -294,7 +298,7 @@ ul {
     width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
 		padding: 0em 0.5em;
 		height: 22px;
@@ -308,6 +312,267 @@ ul {
 /****	FIN  FILTER   ****/
 
 /***** DEBUT POSTS   ****/
+
+#posts {
+	padding-top: 1.5rem;
+}
+
+#posts .container {
+	padding: 0rem 3.5rem;
+}
+
+.postsBlocks {
+	background-color: #fff;
+	border-radius: 0.2rem;
+	box-shadow: 0px 2px 0px #e2dee0;
+}
+
+.postsImage {
+	border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+	width: 100%;
+}
+
+.postsHomeImages {
+	border-bottom: 3px solid #1baf5d;
+}
+
+.postsPartyImages {
+	border-bottom: 3px solid #f19e1f;
+}
+
+.postsBusImages {
+	border-bottom: 3px solid #88499c;
+}
+
+.sale {
+	position: absolute;
+    top: 6px;
+    right: 6px;
+    font-family: "Gotham";
+}
+.image:hover .overlay {
+	opacity: 0.9;
+}
+
+.image {
+	position: relative;
+	text-align: center;
+    width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	padding: 3rem 2rem;
+	border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+
+.overlay button {
+	border-radius: 1.2rem;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Gotham";
+}
+
+.overlay button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.overlay button {
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.postsIcons {
+    border-radius: 2.5rem;
+    padding: 0.5em 0.5em;
+    height: 60px;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    position: relative;
+    top: -30px;
+}
+
+.postIcoHome {
+	background-color: #1baf5d;
+}
+
+.description {
+	font-size: 15px;
+    color: #566375;
+    margin-top: -25px;
+    padding: 0 30px;
+}
+
+@media screen and (min-width: 1200px) {
+	.partyDescription {
+		margin-bottom: 2.4rem;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.partyDescription {
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.partyDescription {
+		margin-bottom: 2.4rem;
+	}
+}
+
+.visionAgency {
+	text-transform: uppercase;
+	font-size: 14px;
+    color: #1baf5d;
+}
+
+.longBeach {
+	color: #f19e1f;
+}
+
+.busTrans {
+	color: #88499c;
+}
+
+.stars {
+	font-size: 14px;
+    color: #96a6a7;
+}
+
+.homeSeller {
+	position: absolute;
+    bottom: -12px;
+    right: 85px;
+    color: #fff;
+    font-size: 0.8rem;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 577px) {
+	.homeSeller {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	.homeSeller {
+		right: 30px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.homeSeller {
+		right: 4px;
+		bottom: 8px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.homeSeller {
+		right: 10px;
+	}
+}
+
+.homeSellerCompany {
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 578px) and (max-width: 1199px) {
+	.lucySteve {
+		padding-right: 0;
+	}
+	
+	.lucySteve img {
+		float: right;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.lucySteve img {
+		float: right;
+	}
+	
+	.responsiveBlock633 {
+		height: 130px;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	.testimonialsAndRate {
+		margin-top: -30px;
+	}
+	
+	.starsXL img {
+		float: left;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.starsXL img {
+		float: left;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.testimonialsAndRate {
+		margin-top: -30px;
+	}
+	
+	.starsXL img {
+		float: left;
+	}
+	
+	.responsiveBlock33 {
+		height: 123px;
+	}
+}
+
+.clientName, .testimony, .testimony a, #load, #load a {
+	padding-left: 0.2rem;
+	color: #566375;
+}
+
+.clientName {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.testimony {
+	font-family: "Gotham";
+    font-weight: lighter;
+	font-size: 15px;
+}
+
+.testimony a, #load a {
+	font-family: "Gotham Medium";
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+#load {
+	padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#load p {
+	margin: 0 auto;
+} 
+
+#load a {
+	font-size: 18px;
+} 
 
 
 /****	FIN  POSTS   ****/
