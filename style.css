@@ -550,8 +550,7 @@ ul {
 }
 
 .testimony {
-	font-family: "Gotham";
-    font-weight: lighter;
+	font-family: "Gotham Book";
 	font-size: 15px;
 }
 
@@ -579,6 +578,121 @@ ul {
 
 /***** DEBUT OFFER   ****/
 
+#offer {
+	padding: 5rem 0;
+}
+
+#offerTitle h4 {
+	color: #566375;
+}
+
+#offerDescription {
+	font-family: "Gotham Book";
+	color: #96a6a7;
+}
+
+#offerIcons {
+	margin: 0 auto;
+}
+
+#offerIcons a {
+	padding: 0.5em 0;
+}
+
+#offerIcons .nav .active > .nav-link img, 
+#offerIcons a:hover img, #offerIcons a:focus img {
+	border: 2px solid #1baf5d;
+}
+
+#offerIcons .offerIcon:before {
+	content: "";
+	width: 53px;
+	height: 2px;
+	background-color: #e2dee0;
+    vertical-align: middle;
+    display: inline-block;
+	margin: 0em 0.25em;
+}
+
+#offerIcons img {
+    border: 2px solid #9dacad;
+    border-radius: 3.1rem;
+    padding: 1.7em;
+}
+
+#reality h4 {
+	color: #1baf5d;
+}
+
+#flashIcon i {
+	background-color: #1baf5d;
+    border-radius: 2rem;
+    padding: 0.4em 0.65em;
+    color: #fff;
+}
+
+#leafIcon i {
+	background-color: #1baf5d;
+    border-radius: 2rem;
+    padding: 0.4em 0.4em;
+    color: #fff;
+}
+
+.flashDescription p {
+	font-family: "Gotham Book";
+	color: #566375;
+}
+
+@media screen and (max-width: 577px) {
+	#offer {
+		padding: 2rem 0;
+	}
+
+	#offerIcons .offerIcon:before {
+		width: 0px;
+		margin: 0em 0.05em;
+	}
+	
+	#offerIcons img {
+		border-radius: 2.1rem;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#offerIcons .offerIcon:before {
+		width: 30px;
+	}
+	
+	#offerIcons img {
+		border-radius: 2.1rem;
+		padding: 0.7em;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	.flashDescription {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#offerIcons .offerIcon:before {
+		width: 36px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#flashAndLeaf {
+		padding: 0 3rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#flashAndLeaf {
+		padding: 0 10rem;
+	}
+}
 
 
 /****	FIN  OFFER   ****/
