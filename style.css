@@ -5,16 +5,6 @@ body {
 	background-color: #f3f1f2;
 }
 
-/* .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.row {
-	margin-right: 0px;
-    margin-left: 0px;
-}
- */
 a:focus, a:hover {
 	text-decoration: none;
 }
@@ -32,64 +22,10 @@ ul {
 	font-family: "Gotham Light";
 }
 
-@media screen and (min-width: 992px) {
-	#navigation .navbar {
-		margin-left: 7rem;
-	}
-	
-	#navigationSearchForm {
-		position: absolute;
-		top: 0;
-		right: 0px;
-		width: 0%;
-		min-width: 70px;
-		height: 100%;
-		overflow: hidden;
-	}
-	
-	#navigationSearchForm .input-group input {
-		display: none;
-	}
-	
-	#navigationSearchForm .input-group span.input-group-addon {
-		right: -20px;
-		position: relative;
-	}
-}
-
-@media screen and (max-width: 991px) {
-	#navigation #menu {
-		width: 95%;
-		background: #4b5b6a;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	#navigation #menu {
-		margin-left: 10rem;
-	}
-}
-
 #menu li a {
     font-size: 14px;
 	color: #96a6a7;
 	font-weight: 600;
-}
-	
-@media screen and (max-width: 991px) {
-	#menu li {
-        padding: 0px 10px;
-	}
-	
-	#menu li a {
-        padding: 6px 6px;
-	}
-}
-	
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#login {
-		max-height: 74px;
-	}
 }
 
 #menu li a:hover, #menu li a.active {
@@ -141,34 +77,6 @@ ul {
 	padding-top: 30px;
 }
 
-@media screen and (min-width: 468px) and (max-width: 767px) {
-	#searchName h3 {
-		font-size: 26px;
-		line-height: 2;
-		padding-top: 15px;
-	}
-}
-
-@media screen and (max-width: 467px) {
-	#searchName h3 {
-		font-size: 20px;
-		line-height: 1.2;
-		padding-top: 5px;
-	}
-}
-
-@media screen and (min-width: 578px) {
-	#searchForm #selector div[class^="col-md-6"]:first-child .form-group {
-		width: 45%;
-		float: right;
-	}
-
-	#searchForm #selector div[class^="col-md-6"]:nth-child(2) .form-group {
-		width: 45%;
-		float: left;
-	}
-}
-
 #searchForm  .form-control {
 	height: 60px;
 	border-radius: 30px;
@@ -183,13 +91,6 @@ ul {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 577px) {
-	#researchKeywords .form-group {
-		width: 100%;
-		margin: 0;
-	}
-}
-
 #searchButton button {
 	height: 60px;
 	border-radius: 30px;
@@ -201,13 +102,6 @@ ul {
     font-family: 'Gotham Medium';
     font-size: 1.2rem;
 }
-
-@media screen and (max-width: 991px) {
-	#searchButton button {
-		width: 130px;
-	}
-}
-
 
 /****	FIN  SEARCH   ****/
 
@@ -247,23 +141,10 @@ ul {
 	text-transform: uppercase;
 }
 
-@media screen and (max-width: 991px) {
-	#filterSelector select {
-		width: 130px;
-	}
-}
-
 #filterSelector button {
 	color: #96a6a7;
     float: left;
     font-size: 12px;
-}
-
-@media screen and (max-width: 577px) {
-	#filterSelector select, #filterSelector button {
-		float: none;
-		margin-bottom: 1rem;
-	}
 }
 
 #filterGrid li {
@@ -296,17 +177,6 @@ ul {
 .icoHome img, .icoGirl img, .icoSchool img, .icoParty img , .icoBus img {
 	max-width: 30px;
     width: 100%;
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
-		padding: 0em 0.5em;
-		height: 22px;
-	}
-	
-	#filterGrid li {
-		padding: 0.75em 0.25em;
-	}
 }
 
 /****	FIN  FILTER   ****/
@@ -386,13 +256,6 @@ ul {
     color: #fff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.overlay button {
-		width: 100%;
-		overflow: hidden;
-	}
-}
-
 .postsIcons {
     border-radius: 2.5rem;
     padding: 0.5em 0.5em;
@@ -412,24 +275,6 @@ ul {
     color: #566375;
     margin-top: -25px;
     padding: 0 30px;
-}
-
-@media screen and (min-width: 1200px) {
-	.partyDescription {
-		margin-bottom: 2.4rem;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	.partyDescription {
-		margin-bottom: 1rem;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.partyDescription {
-		margin-bottom: 2.4rem;
-	}
 }
 
 .visionAgency {
@@ -460,83 +305,8 @@ ul {
 	text-transform: uppercase;
 }
 
-@media screen and (max-width: 577px) {
-	.homeSeller {
-		display: none;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	.homeSeller {
-		right: 30px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.homeSeller {
-		right: 4px;
-		bottom: 8px;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	.homeSeller {
-		right: 10px;
-	}
-}
-
 .homeSellerCompany {
 	font-size: 1.2rem;
-}
-
-@media screen and (min-width: 578px) and (max-width: 1199px) {
-	.lucySteve {
-		padding-right: 0;
-	}
-	
-	.lucySteve img {
-		float: right;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.lucySteve img {
-		float: right;
-	}
-	
-	.responsiveBlock633 {
-		height: 130px;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	.testimonialsAndRate {
-		margin-top: -30px;
-	}
-	
-	.starsXL img {
-		float: left;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.starsXL img {
-		float: left;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.testimonialsAndRate {
-		margin-top: -30px;
-	}
-	
-	.starsXL img {
-		float: left;
-	}
-	
-	.responsiveBlock33 {
-		height: 123px;
-	}
 }
 
 .clientName, .testimony, .testimony a, #load, #load a {
@@ -643,58 +413,6 @@ ul {
 	color: #566375;
 }
 
-@media screen and (max-width: 577px) {
-	#offer {
-		padding: 2rem 0;
-	}
-
-	#offerIcons .offerIcon:before {
-		width: 0px;
-		margin: 0em 0.05em;
-	}
-	
-	#offerIcons img {
-		border-radius: 2.1rem;
-		padding: 0;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#offerIcons .offerIcon:before {
-		width: 30px;
-	}
-	
-	#offerIcons img {
-		border-radius: 2.1rem;
-		padding: 0.7em;
-	}
-}
-
-@media screen and (min-width: 578px) {
-	.flashDescription {
-		padding: 0;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#offerIcons .offerIcon:before {
-		width: 36px;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	#flashAndLeaf {
-		padding: 0 3rem;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	#flashAndLeaf {
-		padding: 0 10rem;
-	}
-}
-
-
 /****	FIN  OFFER   ****/
 
 /***** DEBUT FOOTER   ****/
@@ -784,7 +502,104 @@ ul {
 	font-size: .5rem;
 }
 
+/****	FIN  FOOTER   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
+@media screen and (max-width: 467px) {
+	#searchName h3 {
+		font-size: 20px;
+		line-height: 1.2;
+		padding-top: 5px;
+	}
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+	#searchName h3 {
+		font-size: 26px;
+		line-height: 2;
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 577px) {
+	#researchKeywords .form-group {
+		width: 100%;
+		margin: 0;
+	}
+	
+	#filterSelector select, #filterSelector button {
+		float: none;
+		margin-bottom: 1rem;
+	}
+	
+	.homeSeller {
+		display: none;
+	}
+	
+	#offer {
+		padding: 2rem 0;
+	}
+
+	#offerIcons .offerIcon:before {
+		width: 0px;
+		margin: 0em 0.05em;
+	}
+	
+	#offerIcons img {
+		border-radius: 2.1rem;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	.homeSeller {
+		right: 30px;
+	}
+	
+	.testimonialsAndRate {
+		margin-top: -30px;
+	}
+	
+	.starsXL img {
+		float: left;
+	}
+	
+	#offerIcons .offerIcon:before {
+		width: 30px;
+	}
+	
+	#offerIcons img {
+		border-radius: 2.1rem;
+		padding: 0.7em;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 1199px) {
+	.lucySteve {
+		padding-right: 0;
+	}
+	
+	.lucySteve img {
+		float: right;
+	}
+}
+
 @media screen and (min-width: 578px) {
+	#searchForm #selector div[class^="col-md-6"]:first-child .form-group {
+		width: 45%;
+		float: right;
+	}
+
+	#searchForm #selector div[class^="col-md-6"]:nth-child(2) .form-group {
+		width: 45%;
+		float: left;
+	}
+	
+	.flashDescription {
+		padding: 0;
+	}
+	
 	#footer {
 		padding: 2rem;
 	}
@@ -809,6 +624,43 @@ ul {
 		padding-left: 32px;
 	}
 }
+	
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#login {
+		max-height: 74px;
+	}
+	
+	.icoHome, .icoGirl, .icoSchool, .icoParty, .icoBus {
+		padding: 0em 0.5em;
+		height: 22px;
+	}
+	
+	#filterGrid li {
+		padding: 0.75em 0.25em;
+	}
+	
+	.overlay button {
+		width: 100%;
+		overflow: hidden;
+	}	
+	
+	.partyDescription {
+		margin-bottom: 2.4rem;
+	}	
+	
+	.homeSeller {
+		right: 4px;
+		bottom: 8px;
+	}
+	
+	.starsXL img {
+		float: left;
+	}
+	
+	#offerIcons .offerIcon:before {
+		width: 36px;
+	}
+}
 
 @media screen and (min-width: 768px) {
 	#socialMedia {
@@ -824,5 +676,100 @@ ul {
 	}
 }
 
+@media screen and (max-width: 991px) {
+	#navigation #menu {
+		width: 95%;
+		background: #4b5b6a;
+	}
+	
+	#menu li {
+        padding: 0px 10px;
+	}
+	
+	#menu li a {
+        padding: 6px 6px;
+	}
+	
+	#searchButton button {
+		width: 130px;
+	}
+	
+	#filterSelector select {
+		width: 130px;
+	}
+}
 
-/****	FIN  FOOTER   ****/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.partyDescription {
+		margin-bottom: 1rem;
+	}
+	
+	.homeSeller {
+		right: 10px;
+	}
+	
+	#flashAndLeaf {
+		padding: 0 3rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#navigation .navbar {
+		margin-left: 7rem;
+	}
+	
+	#navigationSearchForm {
+		position: absolute;
+		top: 0;
+		right: 0px;
+		width: 0%;
+		min-width: 70px;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#navigationSearchForm .input-group input {
+		display: none;
+	}
+	
+	#navigationSearchForm .input-group span.input-group-addon {
+		right: -20px;
+		position: relative;
+	}
+	
+	.testimonialsAndRate {
+		margin-top: -30px;
+	}
+	
+	.starsXL img {
+		float: left;
+	}
+	
+	.responsiveBlock33 {
+		height: 123px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#navigation #menu {
+		margin-left: 10rem;
+	}
+	
+	.partyDescription {
+		margin-bottom: 2.4rem;
+	}
+	
+	.lucySteve img {
+		float: right;
+	}
+	
+	.responsiveBlock633 {
+		height: 130px;
+	}
+	
+	#flashAndLeaf {
+		padding: 0 10rem;
+	}
+}
+
+/****   FIN MEDIA QUERIES    ****/
