@@ -699,7 +699,130 @@ ul {
 
 /***** DEBUT FOOTER   ****/
 
+#footer {
+	background: url(images/footer_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+	padding: 2rem;
+}
 
+#suscribeTitle {
+	margin-bottom: 2rem;
+}
+
+#footerLists {
+	padding-top: 0.75rem;
+}
+
+#footerLists ul {
+	padding: 0;
+	text-align: center;
+}
+
+#footerList1 ul li:first-child, #footerList2 ul li:first-child, #follow ul li:first-child {
+	padding-bottom: .4rem;
+}
+
+#footerList1 ul li a, #footerList2 ul li a, #copyright {
+	font-family: "Gotham Book";
+	color: #ADADAD;
+}
+
+#footerList1 ul li a.ipsumFollow, #footerList1 ul li a.ipsumFollow:hover,
+#footerList2 ul li a.ipsumFollow, #footerList2 ul li a.ipsumFollow:hover,
+#follow ul li a.ipsumFollow, #follow ul li a.ipsumFollow:hover {
+	font-family: "Gotham Medium";
+	font-size: 1.1em;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#follow ul li a, #copyright {
+	color: #fff;
+}
+
+#suscribeInputGroup .input-group {
+	width: 100%;
+    margin: 0 auto 2.5rem;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#suscribeInputGroup .form-control {
+    border: 0;
+    background: transparent;
+    font-family: 'Gotham Light', sans serif;
+	color: #fff;
+	font-size: 0.7rem;
+}
+
+#suscribeInputGroup .btn.btn-default {
+    background-color: transparent;
+    color: white;
+}
+
+#suscribeInputGroup span #leftButton {
+    border-right: transparent;
+	padding-right: 4px;
+    padding-left: 4px;
+}
+
+#suscribeInputGroup span #rightButton {
+    border-radius: 30px;
+    background-color: #e94e38;
+    margin: .3rem;
+    color: #fff;
+    box-shadow: 0px 2px 0px #c1412e;
+    font-family: 'Gotham Medium';
+    border-left: transparent;
+	font-size: .5rem;
+}
+
+@media screen and (min-width: 578px) {
+	#footer {
+		padding: 2rem;
+	}
+	
+	#footerLists {
+		padding-top: 1.2rem;
+	}
+	
+	#footerLists ul {
+		text-align: left;
+	}
+	
+	#footerList1 ul li:first-child, #footerList2 ul li:first-child, #follow ul li:first-child {
+		padding-bottom: 1rem;
+	}
+	
+	#suscribeInputGroup .input-group {
+		width: 55%;
+	}
+	
+	#suscribeInputGroup span #leftButton {
+		padding-left: 32px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#socialMedia {
+		margin-bottom: 3.5rem;
+	}
+	
+	#suscribeInputGroup .form-control {
+		font-size: 1rem;
+	}
+	
+	#suscribeInputGroup span #rightButton {
+		font-size: 1rem;
+	}
+}
 
 
 /****	FIN  FOOTER   ****/
